@@ -1,0 +1,19 @@
+name: Evaluate Repository
+
+on:
+  workflow_dispatch:
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Run Vibe Evaluator
+        uses: VibeCodeArena/vibe-evaluator@all
