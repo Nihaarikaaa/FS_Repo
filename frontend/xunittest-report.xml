@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="2.441">
+  <testsuite name="sample.test.js" errors="0" failures="0" skipped="0" timestamp="2025-05-16T12:51:20" time="1.887" tests="11">
+    <testcase classname="Books Application Tests › AddBook Component" name="successfully adds a book and redirects to the book list" time="0.131">
+    </testcase>
+    <testcase classname="Books Application Tests › AddBook Component" name="shows error when submitting empty form" time="0.011">
+    </testcase>
+    <testcase classname="Books Application Tests › BookDetails Component" name="renders book details correctly" time="0.015">
+    </testcase>
+    <testcase classname="Books Application Tests › BookDetails Component" name="handles error when the book is not found" time="0.008">
+    </testcase>
+    <testcase classname="Books Application Tests › BookDetails Component" name="navigates back to the book list when &apos;Back to List&apos; is clicked" time="0.019">
+    </testcase>
+    <testcase classname="Books Application Tests › EditBook Component" name="renders the form correctly and populates fields" time="0.01">
+    </testcase>
+    <testcase classname="Books Application Tests › EditBook Component" name="redirects to list view after successful update" time="0.017">
+    </testcase>
+    <testcase classname="Books Application Tests › BookList Component" name="renders the book list correctly" time="0.014">
+    </testcase>
+    <testcase classname="Books Application Tests › BookList Component" name="deletes a book from the list" time="0.014">
+    </testcase>
+    <testcase classname="Books Application Tests › BookList Component" name="renders an empty message when no books exist" time="0.006">
+    </testcase>
+    <testcase classname="Books Application Tests › Delete All Books Functionality" name="deletes all books and clears the list" time="0.017">
+    </testcase>
+  </testsuite>
+</testsuites>
